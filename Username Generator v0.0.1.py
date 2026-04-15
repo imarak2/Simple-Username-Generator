@@ -10,7 +10,7 @@ secondwords = [
     "Mango", "Mustard", "Flavour", "Water", "You", "System", "Enjoyer", "Today",
     "Josh", "Made", "Game", "Couch", "Player"
 ]
-numbers = random.randint(1, 3000)
+numbers = random.randint(1, 4000)
 RandomAhhUsername = str(random.choice(words)) + str(random.choice(secondwords)) + str(numbers)
 if "67" in str(numbers) or "55" in str(numbers):
     print(f"Your username is so tuff!: {RandomAhhUsername}")
